@@ -1,0 +1,6 @@
+services:
+
+  vector-db:
+    image: chromadb/chroma
+    ports:
+      - 8000:8000

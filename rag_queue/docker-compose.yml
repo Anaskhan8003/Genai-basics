@@ -1,0 +1,15 @@
+services:
+  valkey:
+    image: valkey/valkey
+    ports:
+      - 6379:6379
+
+  chroma:
+    image: chromadb/chroma
+    ports:
+      - 8000:8000
+    volumes:
+      - chroma_data:/chroma/chroma
+
+volumes:
+  chroma_data:

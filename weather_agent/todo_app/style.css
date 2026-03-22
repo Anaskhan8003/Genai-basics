@@ -1,0 +1,1 @@
+body { background-color: #f3e5f5; font-family: sans-serif; } #app { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 300px; margin: auto; } h1 { color: #7b1fa2; } input { border: 1px solid #ce93d8; } button { background: #7b1fa2; color: white; border: none; padding: 5px 10px; cursor: pointer; }
